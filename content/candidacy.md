@@ -17,8 +17,7 @@ draft: false
 
 Re: Paper Requirement
 
-This letter is to confirm that my PhD student Bahruz Jabiyev has met the Ph.D. paper requirement set forth by the Cybersecurity Ph.D. program. The paper, titled "Preventing Server-Side Request Forgery Attacks", has been accepted in the 36th ACM Symposium on Applied Computing (SAC 2021). This is a very well-known, highly-regarded conference with an acceptance rate of about 25%. Bahruz is the lead author of the paper and conducted most of the work with some support from a postdoc student. This work introduces a novel method to prevent server-side request forgery attacks targeting web applications and systems.
-
+This letter is to confirm that my PhD student Bahruz Jabiyev has met the PhD paper requirement set forth by the Cybersecurity PhD program. The paper, titled "Preventing Server-Side Request Forgery Attacks", has been accepted in the 36th ACM Symposium on Applied Computing (SAC 2021). This is a very well-known, respected conference with an acceptance rate of about 25%. Bahruz is the lead author of the paper and conducted most of the work with some support from a postdoc student. This work introduces a novel approach to prevent server-side request forgery attacks. They implement this approach by extending the functionality of a popular reverse proxy and deploy multiple web applications with that reverse proxy. They demonstrate that almost all attacks on those web applications are prevented automatically with almost no loss of performance.
 
 Sincerely,<br>
 Prof. Engin Kirda<br>
