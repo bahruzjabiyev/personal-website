@@ -16,6 +16,6 @@ In the first two and a half years of my PhD, I did research on misinformation. I
 <h2><span class="p-1" style="background-color: skyblue">Publications</span></h2>
 [1] Bahruz Jabiyev, Omid Mirzaei, Amin Kharraz, Engin Kirda, <i>Preventing Server-Side Request Forgery Attacks</i>, In 36th ACM Symposium on Applied Computing (SAC 2021), Gwangju, Korea, March 2021 <a href="/papers/prevent-ssrf.pdf">[download]</a>
 <br><br>
-[1] Bahruz Jabiyev, Sinan Pehlivanoglu, Kaan Onarlioglu, Engin Kirda, <i>FADE: Detecting Fake News Articles on the Web</i>, In 16th International Conference on Availability, Reliability and Security (ARES 2021), Vienna, Austria, August 2021 <a href="/papers/ares2021fade.pdf">[download]</a>
+[2] Bahruz Jabiyev, Sinan Pehlivanoglu, Kaan Onarlioglu, Engin Kirda, <i>FADE: Detecting Fake News Articles on the Web</i>, In 16th International Conference on Availability, Reliability and Security (ARES 2021), Vienna, Austria, August 2021 <a href="/papers/ares2021fade.pdf">[download]</a>
 <br><br>
-[2] Bahruz Jabiyev, <i>Generating Application Layer IDS Rules from Cyber Threat Intelligence</i>, Master's Thesis, June 2016 <a href="/papers/ms-thesis.pdf">[download]</a>
+[3] Bahruz Jabiyev, <i>Generating Application Layer IDS Rules from Cyber Threat Intelligence</i>, Master's Thesis, June 2016 <a href="/papers/ms-thesis.pdf">[download]</a>
