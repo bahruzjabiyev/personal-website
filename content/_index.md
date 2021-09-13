@@ -20,4 +20,4 @@ In the first two and a half years of my PhD, I did research on misinformation. I
 <br><br>
 [3] Bahruz Jabiyev, Omid Mirzaei, Amin Kharraz, Engin Kirda, <i>Preventing Server-Side Request Forgery Attacks</i>, In 36th ACM Symposium on Applied Computing (SAC 2021), Gwangju, Korea, March 2021 <a href="/papers/prevent-ssrf.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/prevent-ssrf">[code]</a>
 <br><br>
-[3] Bahruz Jabiyev, <i>Generating Application Layer IDS Rules from Cyber Threat Intelligence</i>, Master's Thesis, June 2016 <a href="/papers/ms-thesis.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/ConvertSTIXtoSuricataRules">[code]</a>
+[4] Bahruz Jabiyev, <i>Generating Application Layer IDS Rules from Cyber Threat Intelligence</i>, Master's Thesis, June 2016 <a href="/papers/ms-thesis.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/ConvertSTIXtoSuricataRules">[code]</a>
