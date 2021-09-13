@@ -8,10 +8,10 @@ draft: false
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-I am a 4th year Cybersecurity PhD student at Northeastern in Boston, MA. My research advisor is <a href="https://www.ccs.neu.edu/home/ek/">Engin Kirda</a>. As a research assistant, my main job is to do an academic research to tackle certain problems in the field of cybersecurity. Particularly, I have been focusing on the issues of Internet Safety and Web Security. 
+I am a Cybersecurity PhD candidate at Northeastern in Boston, MA. My research advisor is <a href="https://www.ccs.neu.edu/home/ek/">Engin Kirda</a>. As a research assistant, my main job is to do an academic research to tackle certain problems in the field of cybersecurity. Particularly, I have been focusing on the issues of Internet Safety and Web Security. 
 
 <h2><span class="p-1" style="background-color: lightgreen">Research Interests</span></h2>
-In the first two and a half years of my PhD, I did research on misinformation. I tried to tackle multiple challenges including the detection of fake news articles on the web, detection of fake quote memes on the social media and finally understanding manual fact-checking techniques through textual analysis of fact-check reports.<br><br>Lately, I have been doing research on Web Security problems. I usually explore and work on the prevention of serious attacks targeting web applications and systems.
+In the first two and a half years of my PhD, I did research on misinformation. I tried to tackle multiple challenges including the detection of fake news articles on the web, detection of fake quote memes on the social media and finally understanding manual fact-checking techniques through textual analysis of fact-check reports.<br><br>Lately, I have been doing research on Web Security problems. I usually explore attacks targeting web applications and systems, and sometimes work on their prevention.
 
 <h2><span class="p-1" style="background-color: skyblue">Publications</span></h2>
 [1] Bahruz Jabiyev, Steven Sprecher, Kaan Onarlioglu, Engin Kirda, <i>T-Reqs: HTTP Request Smuggling with Differential Fuzzing</i>, In ACM Conference on Computer and Communications Security (CCS 2021), Seoul, Republic of Korea, November 2021 [paper] <a href="https://github.com/bahruzjabiyev/t-reqs-http-fuzzer">[code]</a> 

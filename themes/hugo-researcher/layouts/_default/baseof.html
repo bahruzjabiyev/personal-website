@@ -4,7 +4,7 @@
     {{ if or (.Params.math) (.Site.Params.math) }}
         {{- partial "math.html" . -}}
     {{ end }}
-    <body style="background-color: beige">
+    <body style="background-color: seashell">
         {{- partial "header.html" . -}}
         <div id="content" style="min-height: 100vh">
         {{- block "main" . }}{{- end }}
