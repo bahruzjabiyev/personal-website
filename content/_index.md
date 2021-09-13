@@ -14,8 +14,10 @@ I am a 4th year Cybersecurity PhD student at Northeastern in Boston, MA. My rese
 In the first two and a half years of my PhD, I did research on misinformation. I tried to tackle multiple challenges including the detection of fake news articles on the web, detection of fake quote memes on the social media and finally understanding manual fact-checking techniques through textual analysis of fact-check reports.<br><br>Lately, I have been doing research on Web Security problems. I usually explore and work on the prevention of serious attacks targeting web applications and systems.
 
 <h2><span class="p-1" style="background-color: skyblue">Publications</span></h2>
-[1] Bahruz Jabiyev, Omid Mirzaei, Amin Kharraz, Engin Kirda, <i>Preventing Server-Side Request Forgery Attacks</i>, In 36th ACM Symposium on Applied Computing (SAC 2021), Gwangju, Korea, March 2021 <a href="/papers/prevent-ssrf.pdf">[download]</a>
+[1] Bahruz Jabiyev, Steven Sprecher, Kaan Onarlioglu, Engin Kirda, <i>T-Reqs: HTTP Request Smuggling with Differential Fuzzing</i>, In ACM Conference on Computer and Communications Security (CCS 2021), Seoul, Republic of Korea, November 2021 [paper] <a href="https://github.com/bahruzjabiyev/t-reqs-http-fuzzer">[code]</a> 
 <br><br>
-[2] Bahruz Jabiyev, Sinan Pehlivanoglu, Kaan Onarlioglu, Engin Kirda, <i>FADE: Detecting Fake News Articles on the Web</i>, In 16th International Conference on Availability, Reliability and Security (ARES 2021), Vienna, Austria, August 2021 <a href="/papers/ares2021fade.pdf">[download]</a>
+[2] Bahruz Jabiyev, Sinan Pehlivanoglu, Kaan Onarlioglu, Engin Kirda, <i>FADE: Detecting Fake News Articles on the Web</i>, In 16th International Conference on Availability, Reliability and Security (ARES 2021), Vienna, Austria, August 2021 <a href="/papers/ares2021fade.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/FADE">[code]</a>
 <br><br>
-[3] Bahruz Jabiyev, <i>Generating Application Layer IDS Rules from Cyber Threat Intelligence</i>, Master's Thesis, June 2016 <a href="/papers/ms-thesis.pdf">[download]</a>
+[3] Bahruz Jabiyev, Omid Mirzaei, Amin Kharraz, Engin Kirda, <i>Preventing Server-Side Request Forgery Attacks</i>, In 36th ACM Symposium on Applied Computing (SAC 2021), Gwangju, Korea, March 2021 <a href="/papers/prevent-ssrf.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/prevent-ssrf">[code]</a>
+<br><br>
+[3] Bahruz Jabiyev, <i>Generating Application Layer IDS Rules from Cyber Threat Intelligence</i>, Master's Thesis, June 2016 <a href="/papers/ms-thesis.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/ConvertSTIXtoSuricataRules">[code]</a>
