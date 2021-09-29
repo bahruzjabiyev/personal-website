@@ -4,6 +4,9 @@ date: 2021-09-29
 draft: false
 summary: "Our immune system builds attack complexes against bacteria, viruses and parasites. How they are put into place and the mechanisms used along the way might offer lessons to the cybersecurity area."
 ---
+<style>
+p    {text-align: justify}
+</style>
 <h4>Innate Immune System</h4>
 <p>The innate immune system serves as the second line of defense (if we count the physical barriers such as the skin as the first line) for a human body. Its ability to develop effective responses against everyday invaders at a lightning-fast rate is so important. Without this ability, a single bacterium entering our tissue would reach 100 trillion in number or 100 liters in volume in only one day and become an unimaginable threat to a human body which has a blood volume of five liters. The main players of the innate system team are the complement system, professional phagocytes and natural killer cells.</p>
 <p>
