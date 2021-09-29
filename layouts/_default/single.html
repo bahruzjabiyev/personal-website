@@ -1,0 +1,19 @@
+{{ define "main" }}
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{{.Title}}</title>
+</head>
+<body>
+<div class="container">
+	{{ if .Params.summary }}
+	<h3>{{.Title}}</h3>
+	<hr>
+	<b>Summary: </b>{{ .Params.summary }}
+	<hr>
+	{{ end }}
+	{{.Content}}
+</div>
+</body>
+</html>
+{{ end }}
