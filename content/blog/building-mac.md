@@ -20,7 +20,7 @@ What we see here is a "positive feedback" loop, where the more is produced, the 
 Once C3b protein is bound to the surface of the intruder, the cascade of bindings can proceed further. C3bBb binds to C3b and together they cut another complement system protein, C5, into two pieces. (What makes C3bBb bind to C3b instead of cutting C3 molecules? Is the intense production of C3b molecules designed to make this binding possible?) One of these pieces, C5b, comes together with other complement system proteins (C6, C7, C8) to form the stem of the MAC to anchor it to the surface. Finally, C9 proteins are added to form a channel that opens up a hole on the surface (see the figure below). Once this hole is created, the intruder is ready to be eaten.
 </p>
 <figure>
-<img src="/mac.png">
+<img style="width: 75%" src="/mac.png">
 <figcaption style="text-align: center; font-style: italic">Taken from "How the immunity system works"</figcaption>
 </figure>
 <h4>Effects on Human Cells</h4>
