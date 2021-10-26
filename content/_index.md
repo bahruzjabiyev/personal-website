@@ -21,7 +21,7 @@ ACM Conference on Computer and Communications Security (CCS 2021)<br>
 Virtual, November 2021 
 <br><br>
 
-<b>Game of FAME: Automatic Detection of FAke MEmes</b> [paper] [code]<br>
+<b>Game of FAME: Automatic Detection of FAke MEmes</b> <a href="papers/tto2021fame.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/FAME-paper">[code]</a><br>
 Bahruz Jabiyev, Jeremiah Onaolapo, Gianluca Stringhini, Engin Kirda<br> 
 Conference for Truth and Trust Online (TTO 2021)<br>
 Virtual, October 2021<br><br>
