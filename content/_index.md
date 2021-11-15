@@ -15,7 +15,7 @@ In the first two and a half years of my PhD, I did research on misinformation. I
 
 <h2><span class="p-1" style="background-color: skyblue">Publications</span></h2>
 
-<b>T-Reqs: HTTP Request Smuggling with Differential Fuzzing</b> [paper] <a href="https://github.com/bahruzjabiyev/t-reqs-http-fuzzer">[code]</a><br>
+<b>T-Reqs: HTTP Request Smuggling with Differential Fuzzing</b> <a href="papers/ccs2021treqs.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/t-reqs-http-fuzzer">[code]</a><br>
 Bahruz Jabiyev, Steven Sprecher, Kaan Onarlioglu, Engin Kirda<br>
 ACM Conference on Computer and Communications Security (CCS 2021)<br>
 Virtual, November 2021 
