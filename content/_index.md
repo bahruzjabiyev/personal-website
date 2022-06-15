@@ -15,6 +15,12 @@ In the first two and a half years of my PhD, I did research on misinformation. I
 
 <h2><span class="p-1" style="background-color: skyblue">Publications</span></h2>
 
+<b>FRAMESHIFTER: Security Implications of HTTP/2-to-HTTP/1 Conversion Anomalies</b> <a href="#">[paper]</a> <a href="#">[code]</a><br>
+Bahruz Jabiyev, Steven Sprecher, Anthony Gavazzi, Tommaso Innocenti, Kaan Onarlioglu, Engin Kirda<br>
+31st USENIX Security Symposium (Security 2022)<br>
+Boston, MA, August 2022 
+<br><br>
+
 <b>T-Reqs: HTTP Request Smuggling with Differential Fuzzing</b> <a href="papers/ccs2021treqs.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/t-reqs-http-fuzzer">[code]</a><br>
 Bahruz Jabiyev, Steven Sprecher, Kaan Onarlioglu, Engin Kirda<br>
 ACM Conference on Computer and Communications Security (CCS 2021)<br>
