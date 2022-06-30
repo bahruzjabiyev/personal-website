@@ -21,7 +21,7 @@ Bahruz Jabiyev, Steven Sprecher, Anthony Gavazzi, Tommaso Innocenti, Kaan Onarli
 Boston, MA, August 2022 
 <br><br>
 
-<b>T-Reqs: HTTP Request Smuggling with Differential Fuzzing</b> <a href="papers/ccs2021treqs.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/t-reqs-http-fuzzer">[code]</a><br>
+<b>T-Reqs: HTTP Request Smuggling with Differential Fuzzing</b> <a href="papers/ccs2021treqs.pdf">[paper]</a> <a href="https://github.com/bahruzjabiyev/t-reqs-http-fuzzer">[code]</a> <a href="slides/treqs.pptx">[slides]</a><br> 
 Bahruz Jabiyev, Steven Sprecher, Kaan Onarlioglu, Engin Kirda<br>
 ACM Conference on Computer and Communications Security (CCS 2021)<br>
 Virtual, November 2021 
