@@ -114,14 +114,16 @@ html, body {
 
 /* ---- research page: multi-column publication flow ---- */
 #pubmain {
-  column-width: 30em; column-count: auto; column-gap: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(30em, 100%), 1fr));
+  column-gap: 2em; row-gap: 2.5em;
+  align-items: start;
+  max-width: 100em;
   margin: 60px auto 60px auto; padding: 0 2em;
   text-align: left;
 }
 #pubmain > div {
-  display: inline-block; width: 100%;
-  text-align: justify; margin-bottom: 2.5em;
-  break-inside: avoid;
+  text-align: justify;
 }
 #pubmain a, #pubmain a:visited {
   text-decoration: none; color: #000000;
