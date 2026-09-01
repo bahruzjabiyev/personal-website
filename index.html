@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Bahruz Jabiyev</title>
+<meta name="description" content="Bahruz Jabiyev — co-founder &amp; CTO of Mulberi, security researcher. PhD in Cybersecurity."/>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400&amp;display=swap" rel="stylesheet"/>
+<style>
+html {
+  background-color: #020202;
+  background-image: url('assets/img/bilev.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+html, body {
+  margin: 0;
+  font-family: 'Sofia Sans', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.55);
+}
+/* dark scrim so white text stays legible over the daylight photo */
+#scrim {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(ellipse at center,
+              rgba(0,0,0,0.50) 0%, rgba(0,0,0,0.32) 55%, rgba(0,0,0,0.55) 100%);
+  pointer-events: none;
+}
+/* fade-in curtain */
+#curtain {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #020202;
+  opacity: 1;
+  transition: opacity 400ms ease-out;
+  pointer-events: none;
+  z-index: 500;
+}
+#curtain.lifted { opacity: 0; }
+
+#content {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 22px;
+  box-sizing: border-box;
+}
+#content .inner { display: inline-block; text-align: center; }
+
+#sp {
+  width: 200px; height: auto;
+  border: 14px solid #FFFFFF;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.5);
+  margin-bottom: 10px;
+}
+#myname {
+  font-size: 21pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 10px 0 18px 0;
+}
+#extlinks a {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+#extlinks a:hover { text-shadow: 0 0 6px #FFFFFF, 0 1px 6px rgba(0,0,0,0.55); }
+#elselinks { margin-top: 18px; }
+#elselinks a { border: 0; text-decoration: none; }
+#elselinks img {
+  width: 30px; height: 30px;
+  margin: 8px 9px;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.5));
+}
+#elselinks img:hover { filter: drop-shadow(0 0 4px #FFFFFF); }
+#emailreveal {
+  margin-top: 8px; font-size: 14pt; min-height: 22px;
+}
+#emailreveal a { color: #FFFFFF; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.6); }
+#emailreveal a:hover { border-bottom-color: #FFFFFF; text-shadow: 0 0 6px #FFFFFF; }
+
+#photocredit {
+  position: fixed; bottom: 10px; left: 12px; z-index: 1000;
+  font-size: 11px; letter-spacing: 0.02em;
+  color: rgba(255,255,255,0.75);
+}
+#photocredit a { color: rgba(255,255,255,0.85); text-decoration: none; border-bottom: 1px dotted rgba(255,255,255,0.5); }
+#photocredit a:hover { color: #FFFFFF; }
+#copyright {
+  position: fixed; bottom: 10px; right: 12px; z-index: 1000;
+  font-size: 12px; color: rgba(255,255,255,0.85);
+}
+
+/* per-link font sizes hand-tuned so all four lines optically justify
+   to the same width (the jackdoerner.net trick) */
+#l-about    { font-size: 39.5pt; line-height: 45pt; }
+#l-research { font-size: 40.6pt; line-height: 46pt; }
+#l-blog     { font-size: 36.3pt; line-height: 43pt; }
+#l-cv       { font-size: 22.4pt; line-height: 30pt; }
+
+@media (max-width: 640px) {
+  #cpname { display: none; }
+}
+@media (max-width: 420px) {
+  #sp { width: 160px; border-width: 11px; }
+  #l-about    { font-size: 30.8pt; line-height: 35pt; }
+  #l-research { font-size: 31.7pt; line-height: 36pt; }
+  #l-blog     { font-size: 28.3pt; line-height: 34pt; }
+  #l-cv       { font-size: 17.5pt; line-height: 24pt; }
+  #myname { font-size: 16pt; }
+}
+</style>
+</head>
+<body>
+<div id="scrim"></div>
+<div id="content">
+  <div class="inner">
+    <img id="sp" src="assets/img/portrait.webp" alt="Portrait of Bahruz Jabiyev" width="400" height="454"/>
+    <div id="myname">Bahruz&nbsp;Jabiyev</div>
+    <div id="extlinks">
+      <a id="l-about" href="about/">About Me</a><br/>
+      <a id="l-research" href="research/">Research</a><br/>
+      <a id="l-blog" href="blog/">Blog Posts</a><br/>
+      <a id="l-cv" href="files/bahruz_cv.pdf">Curriculum Vitae</a>
+    </div>
+    <div id="elselinks">
+      <a href="https://github.com/bahruzjabiyev" target="_blank" rel="noopener"><img src="assets/icons/github.svg" alt="GitHub"/></a>
+      <a href="https://scholar.google.com/citations?user=ql33eqkAAAAJ" target="_blank" rel="noopener"><img src="assets/icons/googlescholar.svg" alt="Google Scholar"/></a>
+      <a href="https://www.linkedin.com/in/bahruz-jabiyev" target="_blank" rel="noopener"><img src="assets/icons/linkedin.svg" alt="LinkedIn"/></a>
+      <a href="https://twitter.com/bahruzjabiyev" target="_blank" rel="noopener"><img src="assets/icons/x.svg" alt="Twitter / X"/></a>
+      <a href="#" id="emailicon"><img src="assets/icons/email.svg" alt="Email"/></a>
+    </div>
+    <div id="emailreveal"></div>
+  </div>
+</div>
+<div id="curtain"></div>
+<div id="photocredit">
+  Bil&#601;v, Ordubad &mdash; photo by
+  <a href="https://commons.wikimedia.org/wiki/File:Bil%C9%99v_k%C9%99ndi_(1).jpg" target="_blank" rel="noopener">R&#601;c&#601;b Yax&#351;&#305;</a>,
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC&nbsp;BY-SA&nbsp;4.0</a>
+</div>
+<div id="copyright">&copy;&nbsp;2026<span id="cpname"> Bahruz Jabiyev</span></div>
+<script>
+// lift the curtain once the background image is ready (or after a fallback delay)
+(function () {
+  var lift = function () { document.getElementById('curtain').classList.add('lifted'); };
+  var img = new Image();
+  img.onload = lift;
+  img.onerror = lift;
+  img.src = 'assets/img/bilev.jpg';
+  setTimeout(lift, 1500);
+})();
+// email assembled at click-time so scrapers can't harvest it from the HTML
+(function () {
+  var u = 'jabiyev.bahruz', d = 'gmail.com';
+  document.getElementById('emailicon').addEventListener('click', function (e) {
+    e.preventDefault();
+    var addr = u + '@' + d;
+    var el = document.getElementById('emailreveal');
+    el.innerHTML = '<a href="mailto:' + addr + '">' + addr + '</a>';
+  });
+})();
+</script>
+</body>
+</html>

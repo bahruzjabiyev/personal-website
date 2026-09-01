@@ -1,0 +1,182 @@
+/* bahruz.me — shared styles for interior pages */
+/* Serif: Libertinus (successor of Linux Libertine, SIL OFL — see /assets/fonts/OFL.txt) */
+
+@font-face {
+  font-family: 'Libertinus Serif';
+  src: url('../fonts/LibertinusSerif-Regular.woff2') format('woff2');
+  font-weight: normal; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Libertinus Serif';
+  src: url('../fonts/LibertinusSerif-Bold.woff2') format('woff2');
+  font-weight: bold; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Libertinus Serif';
+  src: url('../fonts/LibertinusSerif-Italic.woff2') format('woff2');
+  font-weight: normal; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: 'Libertinus Serif';
+  src: url('../fonts/LibertinusSerif-BoldItalic.woff2') format('woff2');
+  font-weight: bold; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: 'Libertinus Sans';
+  src: url('../fonts/LibertinusSans-Regular.woff2') format('woff2');
+  font-weight: normal; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Libertinus Sans';
+  src: url('../fonts/LibertinusSans-Bold.woff2') format('woff2');
+  font-weight: bold; font-style: normal; font-display: swap;
+}
+
+:root {
+  --serif: 'Libertinus Serif', 'Times', 'Times New Roman', serif;
+  --heading: 'Libertinus Sans', 'Helvetica', 'Arial', sans-serif;
+  --sans: 'Sofia Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: var(--serif);
+  font-size: 12.5pt;
+  line-height: 1.35;
+}
+
+/* ---- fixed top nav ---- */
+#topmenu {
+  position: fixed; top: 0; left: 0; right: 0;
+  padding: 10px;
+  text-align: left;
+  background-color: #FFFFFF;
+  font-family: var(--sans);
+  font-size: 16px;
+  color: #000000;
+  z-index: 1000;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border-bottom: 1px solid #222222;
+  height: 20px; line-height: 20px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+#menuspacer { height: 40px; }
+#topmenu a { margin: 0 10px; color: #888888; text-decoration: none; border: 0; }
+#topmenu a:first-child { margin-left: 0; }
+#topmenu a:hover, #topmenu a.active { color: #000000; }
+
+/* ---- copyright chip ---- */
+#copyright {
+  font-family: var(--sans);
+  font-size: 13px;
+  position: fixed; bottom: 10px; right: 12px;
+  z-index: 1000;
+  color: #000000;
+  background: rgba(255,255,255,0.75);
+  padding: 1px 5px;
+}
+
+/* ---- reading text ---- */
+.pleasantReading { text-align: justify; }
+.pleasantReading a, .pleasantReading a:visited {
+  text-decoration: none; color: #000000;
+  border-bottom: 1px solid #222222; outline: 0;
+}
+.pleasantReading a:hover { border-bottom: 2px solid #222222; }
+.pleasantReading h1, .pleasantReading h2, .pleasantReading h3,
+.pleasantReading h4, .pleasantReading h5, .pleasantReading h6 {
+  font-family: var(--heading); text-align: left; line-height: 1.15;
+}
+.pleasantReading sup { line-height: 1.0; }
+.pleasantReading img { max-width: 100%; height: auto; }
+.pleasantReading figure { margin: 1.5em 0; text-align: center; }
+.pleasantReading figcaption {
+  font-size: 11pt; font-style: italic; color: #444444;
+  text-align: center; margin-top: 0.5em;
+}
+.pleasantReading blockquote {
+  font-style: italic; margin: 1.5em 2em;
+}
+
+/* single centered reading column (blog posts, about) */
+.readingColumn {
+  max-width: 42em;
+  margin: 0 auto;
+  padding: 40px 24px 80px 24px;
+}
+.postdate {
+  font-family: var(--sans);
+  color: #888888; font-size: 14px;
+  margin-bottom: 2em;
+}
+
+/* ---- research page: multi-column publication flow ---- */
+#pubmain {
+  column-width: 30em; column-count: auto; column-gap: 2em;
+  margin: 60px auto 60px auto; padding: 0 2em;
+  text-align: left;
+}
+#pubmain > div {
+  display: inline-block; width: 100%;
+  text-align: justify; margin-bottom: 2.5em;
+  break-inside: avoid;
+}
+#pubmain a, #pubmain a:visited {
+  text-decoration: none; color: #000000;
+  border-bottom: 1px solid #222222; outline: 0;
+}
+#pubmain a:hover { border-bottom: 2px solid #222222; }
+.pubtitle {
+  font-size: 24pt; line-height: 1.1; text-align: left;
+  font-family: var(--heading);
+}
+.authors { font-size: 13pt; margin-top: 6pt; text-align: left; }
+.pubinfo { font-size: 13pt; font-style: italic; margin-top: 10pt; text-align: left; }
+.abstract { margin-top: 8pt; }
+.abstract p { margin: 0.5em 0; }
+.publinks { margin-top: 6pt; text-align: left; }
+
+/* ---- blog index cards ---- */
+#blogindex {
+  font-family: var(--sans);
+  color: #000000;
+  text-align: center;
+  padding: 30px 12px 80px 12px;
+}
+.article {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 128px; padding: 5px;
+  font-size: 22px;
+  color: #000000; text-decoration: none;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  overflow: hidden;
+}
+.article:first-of-type { margin-top: 20px; border-top: 1px solid #EEEEEE; }
+.article:hover { border: 2px solid #222222; padding: 3px 4px 4px 4px; }
+.article:first-of-type:hover { padding-top: 4px; }
+.article .centerText {
+  position: relative; display: block;
+  top: 50%; transform: translateY(-50%);
+  margin: 0 10px;
+}
+.article .date {
+  font-size: 16px; margin-top: 10px;
+  display: inline-block; color: #888888;
+}
+.article:nth-of-type(2n)   .centerText { text-align: right; }
+.article:nth-of-type(2n+1) .centerText { text-align: left; }
+.article:nth-of-type(2n)   img { float: right; height: 128px; margin-left: 20px; }
+.article:nth-of-type(2n+1) img { float: left;  height: 128px; margin-right: 20px; }
+
+@media (max-width: 560px) {
+  .article { height: auto; min-height: 96px; font-size: 18px; }
+  .article img { height: 96px !important; }
+}
